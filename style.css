@@ -1,0 +1,109 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #fff;
+}
+
+.title{
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+}
+
+.calculateBox{
+  outline: black 2px solid;
+  height: 800px;
+  width: 800px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.tip{
+  align-items: center;
+  justify-content: center;
+}
+
+.tip input{
+  width:300px;
+  height: 40px;
+  padding:10px;
+  text-align: center;
+  font: small-caps bold 12px/30px Georgia, serif;
+}
+
+.tip button{
+  height: 40px;
+  width: 40px;
+  padding: 0;
+  margin:0;
+}
+
+.bill{
+  align-items: center;
+  padding: 20px;
+  justify-content: center;
+}
+
+.bill input{
+  width: 385px;
+  height: 40px;
+  margin-top: 70px;
+  padding: 10px;
+  text-align: center;
+  font: small-caps bold 12px/30px Georgia, serif;
+}
+
+.inputLabelBill{
+  position:relative;
+  top: 68px;
+  color: #70757a;
+}
+
+
+.peopleNumber{
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.peopleNumber input{
+  padding: 10px;
+  width: 300px;
+  height:40px;
+  text-align: center;
+  font: small-caps bold 12px/30px Georgia, serif;
+}
+
+.peopleNumber button{
+  height: 40px;
+  width: 40px;
+}
+
+.inputLabelTip{
+  color: #70757a;
+  position: relative;
+  bottom: 2px;
+
+}
+
+.inputLabelPeople{
+  color: #70757a;
+  position: relative;
+  bottom: 2px;
+}
+
+#totalPerPerson{
+  justify-content: center;
+  padding: 20px;
+  font-size: 22px;
+}
+
+#tipPerPerson{
+  justify-content: center;
+  padding: 20px;
+  font-size: 22px;
+}
